@@ -8,32 +8,39 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Class '27</title>
   </head>
-  <body>
+  <body id="body">
 
     <section id="header">
         <div class="header">
-          <div class="logo-icon">
-            <img src="https://i.postimg.cc/bY9Dzct1/logo.jpg" alt="Logo" />
-          </div>
-  
-          <div class="nav-items">
-              <a href="#intro">HOME</a>
-              <a href="#about">ABOUT</a>
-              <a href="#announcements">ANNOUNCEMENTS</a>
-              <a href="#shoutouts">SHOUTOUTS</a>
-              <a href="#birthday">BIRTHDAY BOY</a>
-              <a href="#shop">SHOP</a>
-          </div>
-  
-          <div class="items">
-            <a href="#"><i class='bx bx-user'></i></a>
-            <a href="#"><i class='bx bx-cart'></i></a>
-            <a href="#"><i class='bx bx-heart'></i></a>
-            <a class="hidden" href="#"><i class='bx bx-menu'></i></a>
-          </div>
+            <div class="logo-icon">
+                <img src="https://i.postimg.cc/bY9Dzct1/logo.jpg" alt="Logo" />
+            </div>
+            <div class="nav-items">
+                <a href="#intro">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#announcements">ANNOUNCEMENTS</a>
+                <a href="#shoutouts">SHOUTOUTS</a>
+                <a href="#birthday">BIRTHDAY BOY</a>
+                <a href="#shop">SHOP</a>
+            </div>
+            <div class="items">
+                <a href="#"><i class='bx bx-user'></i></a>
+                <a href="#"><i class='bx bx-cart'></i></a>
+                <a href="#"><i class='bx bx-heart'></i></a>
+                <a class="hidden" href="#" id="hamburger-menu"><i class='bx bx-menu'></i></a>
+            </div>
         </div>
-      </section>
-  
+        <div class="dropdown-menu" id="dropdown-menu">
+            <a href="#intro">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#announcements">ANNOUNCEMENTS</a>
+            <a href="#shoutouts">SHOUTOUTS</a>
+            <a href="#birthday">BIRTHDAY BOY</a>
+            <a href="#shop">SHOP</a>
+            <div class="blur"></div>
+        </div>
+    </section>
+    
     <section aria-labelledby="intro" id="intro">
           <div class="intro-holder">
               <div class="intro-image">
@@ -100,50 +107,100 @@
           </div>
       </section>
 
-    <section aria-labelledby="features" id="features">
+      <section aria-labelledby="features" id="features">
         <div class="features">
             <h1 class="head">What do we offer?</h1>
-
-            <div class="boxes">
-
-                <div class="feature-container">
-                    <div class="feature-box">
-                        <h2 class="title">Announcements</h2>
-                        <p>The Announcements section keeps all students informed about class activities, upcoming events, and important reminders. This is where students can read about deadlines, changes in the schedule, and other class-wide information. It’s the go-to place to stay updated on what’s happening in the class community.</p>
+    
+            <div class="boxes-wrapper">
+                <button class="nav-btn left-btn"><i class='bx bx-chevron-left'></i></button>
+                <div class="boxes">
+                    <div class="feature-container">
+                        <div class="feature-box">
+                            <h2 class="title">Announcements</h2>
+                            <p>The Announcements section keeps all students informed about class activities, upcoming events, and important reminders. This is where students can read about deadlines, changes in the schedule, and other class-wide information. It’s the go-to place to stay updated on what’s happening in the class community.</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="feature-container">
-                    <div class="feature-box">
-                        <h2 class="title">Birthday boy</h2>
-                        <p>Birthday boy is a fun and engaging way to celebrate your students' birthdays. It features a personalized birthday card, birthday party invitations, and a virtual birthday party. The birthday boy platform allows students to easily share their birthday information, create birthday cards, and invite friends to their birthday party.</p>
+                    <div class="feature-container">
+                        <div class="feature-box">
+                            <h2 class="title">Birthday boy</h2>
+                            <p>Birthday boy is a fun and engaging way to celebrate your students' birthdays. It features a personalized birthday card, birthday party invitations, and a virtual birthday party. The birthday boy platform allows students to easily share their birthday information, create birthday cards, and invite friends to their birthday party.</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="feature-container">
-                    <div class="feature-box">
-                        <h2 class="title">Birthday boy</h2>
-                        <p>Birthday boy is a fun and engaging way to celebrate your students' birthdays. It features a personalized birthday card, birthday party invitations, and a virtual birthday party. The birthday boy platform allows students to easily share their birthday information, create birthday cards, and invite friends to their birthday party.</p>
+                    <div class="feature-container">
+                        <div class="feature-box">
+                            <h2 class="title">Birthday boy</h2>
+                            <p>Birthday boy is a fun and engaging way to celebrate your students' birthdays. It features a personalized birthday card, birthday party invitations, and a virtual birthday party. The birthday boy platform allows students to easily share their birthday information, create birthday cards, and invite friends to their birthday party.</p>
+                        </div>
                     </div>
+                    
                 </div>
-
-                <div class="feature-container">
-                    <div class="feature-box">
-                        <h2 class="title">Birthday boy</h2>
-                        <p>Birthday boy is a fun and engaging way to celebrate your students' birthdays. It features a personalized birthday card, birthday party invitations, and a virtual birthday party. The birthday boy platform allows students to easily share their birthday information, create birthday cards, and invite friends to their birthday party.</p>
-                    </div>
-                </div>
-
-                <div class="feature-container">
-                    <div class="feature-box">
-                        <h2 class="title">Birthday boy</h2>
-                        <p>Birthday boy is a fun and engaging way to celebrate your students' birthdays. It features a personalized birthday card, birthday party invitations, and a virtual birthday party. The birthday boy platform allows students to easily share their birthday information, create birthday cards, and invite friends to their birthday party.</p>
-                    </div>
-                </div>
+                <button class="nav-btn right-btn"><i class='bx bx-chevron-right'></i></button>
             </div>
-            
+        </div>
+    </section>
+
+    <section aria-labelledby="our-team" id="our-team">
+        <div class="out-team">
+            <h1 class="head">Meet our team</h1>
+            <div class="team-boxes">
+
+                <div class="tmember-box">
+                    <img src="https://i.postimg.cc/LhK7120G/team-1.jpg" alt="Team Member 1" />
+                    <h2>Ahmed Ashraf</h2>
+                    <a href='https://www.instagram.com/aboalghait_27/'>@aboalghait_27</a>
+                    <p>UI Designer</p>
+                    <p>Front-end developer</p>
+                    <p>Lead Director</p>
+                </div>
+
+                <div class="tmember-box">
+                    <img src="https://i.postimg.cc/FRgkPtrh/IMG-6375.jpg" alt="Team Member 1" />
+                    <h2>Ahmed Mohammed</h2>
+                    <a href='https://www.instagram.com/bondo2.___/'>@bondo2.___</a>
+                    <p>Front-end Developer</p>
+                    <p>Back-end Developer</p>
+                    <p>Director</p>
+                </div>
+
+                <div class="tmember-box">
+                    <img src="https://i.postimg.cc/KY15s8wx/IMG-5577.jpg" alt="Team Member 1" />
+                    <h2>Seif Afsha</h2>
+                    <a href='https://www.instagram.com/afsha.jr/'>@afsha.jr</a>
+                    <p>GFX Designer</p>
+                </div>
         </div>
     </section>
     
+    <hr>
+    <section class="footer-section">
+        <div class="footer">
+          <div class="school-icon">
+            <a href="#"><img src="https://i.postimg.cc/90RRc3m5/logo-Copy.jpg"></a>
+          </div>
+          <div class="social-media">
+            <h1>Quick Links</h1>
+            <a href="#"><i class='bx bxl-meta' ></i>Facebook</a>
+            <a href="#"><i class='bx bxl-twitter' ></i>Twitter</a>
+            <a href="#"><i class='bx bxl-instagram' ></i>Instagram</a>
+            <a href='#'><i class='bx bxl-whatsapp' ></i>Whatsapp</a>
+          </div>
+          <div class="contact-info">
+            <h1>Contact Info</h1>
+            <p><i class='bx bx-current-location' ></i> Address: 54 Al Mesak, As Soyouf Bahri, Montaza 1,<br> Alexandria Governorate</p>
+            <br>
+            <p><i class='bx bx-envelope' ></i> Email: victoria-college@info.com</p>
+            <br>
+            <p><i class='bx bx-phone'></i> Phone: 1234567890 / 01234567890</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="copyright-section">
+        <div class="copyright">
+          <p>&copy; 2025 Victoria College. All rights reserved.</p>
+        </div>
+      </section>
+
   </body>
+  <script src="script.js"></script>
 </html>
