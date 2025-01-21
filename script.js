@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
         if (dropdownMenu.style.display === "flex") {
             dropdownMenu.style.display = "none";
-            body.style.overflow = "hidden";
+            body.style.overflow = "auto";
         } else {
             dropdownMenu.style.display = "flex";
+            body.style.overflow = "hidden";
         }
     });
 });
