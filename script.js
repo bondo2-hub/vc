@@ -1,20 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
     const hamburgerMenu = document.getElementById("hamburger-menu");
     const dropdownMenu = document.getElementById("dropdown-menu");
-    const body = document.getElementById("body");
+    const body = document.getElementById("body")
 
     hamburgerMenu.addEventListener("click", function (event) {
         event.preventDefault();
         if (dropdownMenu.style.display === "flex") {
             dropdownMenu.style.display = "none";
-            body.style.overflow = "";
+            body.style.overflow = "hidden";
         } else {
             dropdownMenu.style.display = "flex";
-            body.style.overflow = "hidden";
         }
     });
 });
-
 
 document.addEventListener('DOMContentLoaded', function() {
     const boxes = document.querySelector('.boxes');
@@ -34,6 +32,3 @@ document.addEventListener('DOMContentLoaded', function() {
         boxWidth = window.innerWidth;
     });
 });
-
-
-
