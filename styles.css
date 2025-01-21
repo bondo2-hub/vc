@@ -879,6 +879,10 @@ body::-webkit-scrollbar {
   .header .logo-icon img {
     width: 100px;
   }
+  
+  .dropdown-menu {
+    display: none;
+  }
 
   .intro-holder {
     display: none;
@@ -985,10 +989,6 @@ body::-webkit-scrollbar {
 
   .feature-box:hover {
     transform: scale(1.1);
-  }
-
-  .dropdown-menu {
-    display: flex;
   }
 
   .footer {
